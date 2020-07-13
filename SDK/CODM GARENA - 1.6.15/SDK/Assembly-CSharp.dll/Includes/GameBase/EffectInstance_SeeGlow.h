@@ -1,0 +1,110 @@
+#pragma once
+#include <Il2Cpp/Il2Cpp.h>
+namespace GameBase {
+
+class EffectInstanceSeeGlow
+{
+public: 
+
+	static Il2CppClass *StaticClass() {
+		return (Il2CppClass *)(Il2Cpp::GetClass("Assembly-CSharp.dll", "GameBase", "EffectInstance_SeeGlow"));
+	}
+
+	template <typename T = Il2CppList<uintptr_t>*> T& m_GlowInfoList() {
+		return *(T*)((uintptr_t)this + 0x10);
+	}
+	template <typename T = uintptr_t> T& m_Processor() {
+		return *(T*)((uintptr_t)this + 0x14);
+	}
+	template <typename T = bool> T& m_Active() {
+		return *(T*)((uintptr_t)this + 0x18);
+	}
+	template <typename T = int32_t> T& m_DeltaAdded() {
+		return *(T*)((uintptr_t)this + 0x1C);
+	}
+	template <typename T = bool> T& m_IsEnemy() {
+		return *(T*)((uintptr_t)this + 0x20);
+	}
+	template <typename T = uintptr_t> static T& _c__Hotfix0_ctor() {
+		return *(T*)((uintptr_t)StaticClass()->static_fields + 0x0);
+	}
+	template <typename T = uintptr_t> static T& __Hotfix0_ShowGlow() {
+		return *(T*)((uintptr_t)StaticClass()->static_fields + 0x4);
+	}
+	template <typename T = uintptr_t> static T& __Hotfix0_SetTarget() {
+		return *(T*)((uintptr_t)StaticClass()->static_fields + 0x8);
+	}
+	template <typename T = uintptr_t> static T& __Hotfix0_SetIsEnemy() {
+		return *(T*)((uintptr_t)StaticClass()->static_fields + 0xC);
+	}
+	template <typename T = uintptr_t> static T& __Hotfix0_IsEffectActive() {
+		return *(T*)((uintptr_t)StaticClass()->static_fields + 0x10);
+	}
+	template <typename T = uintptr_t> static T& __Hotfix0_SetTargetRender() {
+		return *(T*)((uintptr_t)StaticClass()->static_fields + 0x14);
+	}
+	template <typename T = uintptr_t> static T& __Hotfix0_ToggleEffect() {
+		return *(T*)((uintptr_t)StaticClass()->static_fields + 0x18);
+	}
+	template <typename T = uintptr_t> static T& __Hotfix0_CheckSelf() {
+		return *(T*)((uintptr_t)StaticClass()->static_fields + 0x1C);
+	}
+	template <typename T = uintptr_t> static T& __Hotfix0_Tick() {
+		return *(T*)((uintptr_t)StaticClass()->static_fields + 0x20);
+	}
+	template <typename T = uintptr_t> static T& __Hotfix0_CheckGlowEffectEnable() {
+		return *(T*)((uintptr_t)StaticClass()->static_fields + 0x24);
+	}
+	template <typename T = uintptr_t> static T& __Hotfix0_OnRecycle() {
+		return *(T*)((uintptr_t)StaticClass()->static_fields + 0x28);
+	}
+
+	template <typename T = bool> T get_HasOcclusionEffect() {
+		return ((T (*)(EffectInstanceSeeGlow*))(Il2CppBase() + 0x40F7978))(this);
+	}
+	template <typename T = void> T ShowGlow(float duration) {
+		return ((T (*)(EffectInstanceSeeGlow*, float))(Il2CppBase() + 0x40F799C))(this, duration);
+	}
+	template <typename T = void> T SetTarget(uintptr_t target) {
+		return ((T (*)(EffectInstanceSeeGlow*, uintptr_t))(Il2CppBase() + 0x40F7BC8))(this, target);
+	}
+	template <typename T = void> T SetIsEnemy(bool value) {
+		return ((T (*)(EffectInstanceSeeGlow*, bool))(Il2CppBase() + 0x40F7EB0))(this, value);
+	}
+	template <typename T = bool> T IsEffectActive() {
+		return ((T (*)(EffectInstanceSeeGlow*))(Il2CppBase() + 0x40F7F58))(this);
+	}
+	template <typename T = void> T SetTargetRender(uintptr_t viewType, uintptr_t root) {
+		return ((T (*)(EffectInstanceSeeGlow*, uintptr_t, uintptr_t))(Il2CppBase() + 0x40F7D34))(this, viewType, root);
+	}
+	template <typename T = void> T ToggleEffect(bool active) {
+		return ((T (*)(EffectInstanceSeeGlow*, bool))(Il2CppBase() + 0x40F811C))(this, active);
+	}
+	template <typename T = void> T CheckSelf() {
+		return ((T (*)(EffectInstanceSeeGlow*))(Il2CppBase() + 0x40F8268))(this);
+	}
+	template <typename T = void> T Tick(float deltaTime) {
+		return ((T (*)(EffectInstanceSeeGlow*, float))(Il2CppBase() + 0x40F83A4))(this, deltaTime);
+	}
+	template <typename T = void> T CheckGlowEffectEnable() {
+		return ((T (*)(EffectInstanceSeeGlow*))(Il2CppBase() + 0x40F865C))(this);
+	}
+	template <typename T = void> T OnRecycle() {
+		return ((T (*)(EffectInstanceSeeGlow*))(Il2CppBase() + 0x40F8A94))(this);
+	}
+	template <typename T = void> T xLuaBaseProxy_SetTarget(uintptr_t P0) {
+		return ((T (*)(EffectInstanceSeeGlow*, uintptr_t))(Il2CppBase() + 0x40F8B98))(this, P0);
+	}
+	template <typename T = void> T xLuaBaseProxy_CheckSelf() {
+		return ((T (*)(EffectInstanceSeeGlow*))(Il2CppBase() + 0x40F8B9C))(this);
+	}
+	template <typename T = void> T xLuaBaseProxy_Tick(float P0) {
+		return ((T (*)(EffectInstanceSeeGlow*, float))(Il2CppBase() + 0x40F8BA0))(this, P0);
+	}
+	template <typename T = void> T xLuaBaseProxy_OnRecycle() {
+		return ((T (*)(EffectInstanceSeeGlow*))(Il2CppBase() + 0x40F8BA4))(this);
+	}
+
+};
+
+}

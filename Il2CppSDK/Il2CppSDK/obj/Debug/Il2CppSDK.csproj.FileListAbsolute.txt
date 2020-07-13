@@ -1,0 +1,10 @@
+C:\Users\aimar\source\repos\Il2CppSDK\Il2CppSDK\bin\Debug\Il2CppSDK.exe.config
+C:\Users\aimar\source\repos\Il2CppSDK\Il2CppSDK\bin\Debug\Il2CppSDK.exe
+C:\Users\aimar\source\repos\Il2CppSDK\Il2CppSDK\bin\Debug\Il2CppSDK.pdb
+C:\Users\aimar\source\repos\Il2CppSDK\Il2CppSDK\bin\Debug\dnlib.dll
+C:\Users\aimar\source\repos\Il2CppSDK\Il2CppSDK\bin\Debug\dnlib.xml
+C:\Users\aimar\source\repos\Il2CppSDK\Il2CppSDK\obj\Debug\Il2CppSDK.csprojAssemblyReference.cache
+C:\Users\aimar\source\repos\Il2CppSDK\Il2CppSDK\obj\Debug\Il2CppSDK.csproj.CoreCompileInputs.cache
+C:\Users\aimar\source\repos\Il2CppSDK\Il2CppSDK\obj\Debug\Il2CppSDK.csproj.CopyComplete
+C:\Users\aimar\source\repos\Il2CppSDK\Il2CppSDK\obj\Debug\Il2CppSDK.exe
+C:\Users\aimar\source\repos\Il2CppSDK\Il2CppSDK\obj\Debug\Il2CppSDK.pdb

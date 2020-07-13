@@ -1,0 +1,8 @@
+#include "Includes/Helpshift/HelpshiftInternalLogger.h"
+#include "Includes/Helpshift/HelpshiftAndroid.h"
+#include "Includes/Helpshift/HelpshiftAndroidLog.h"
+#include "Includes/Helpshift/HelpshiftSdk.h"
+#include "Includes/Helpshift/HelpshiftLog.h"
+#include "Includes/Helpshift/HelpshiftAuthFailureReason.h"
+#include "Includes/Helpshift/HelpshiftJSONUtility.h"
+#include "Includes/Helpshift/HelpshiftUser.h"

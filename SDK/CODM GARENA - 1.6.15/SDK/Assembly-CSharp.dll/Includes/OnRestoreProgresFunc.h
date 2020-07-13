@@ -1,0 +1,25 @@
+#pragma once
+#include <Il2Cpp/Il2Cpp.h>
+
+class OnRestoreProgresFunc
+{
+public: 
+
+	static Il2CppClass *StaticClass() {
+		return (Il2CppClass *)(Il2Cpp::GetClass("Assembly-CSharp.dll", "", "OnRestoreProgresFunc"));
+	}
+
+
+	template <typename T = void> T Invoke(uintptr_t callback, uint32_t stage, uint32_t nowSize, uint32_t totalSize) {
+		return ((T (*)(OnRestoreProgresFunc*, uintptr_t, uint32_t, uint32_t, uint32_t))(Il2CppBase() + 0x4993BB8))(this, callback, stage, nowSize, totalSize);
+	}
+	template <typename T = uintptr_t> T BeginInvoke(uintptr_t callback, uint32_t stage, uint32_t nowSize, uint32_t totalSize, uintptr_t _callback, uintptr_t object) {
+		return ((T (*)(OnRestoreProgresFunc*, uintptr_t, uint32_t, uint32_t, uint32_t, uintptr_t, uintptr_t))(Il2CppBase() + 0x4993C6C))(this, callback, stage, nowSize, totalSize, _callback, object);
+	}
+	template <typename T = void> T EndInvoke(uintptr_t result) {
+		return ((T (*)(OnRestoreProgresFunc*, uintptr_t))(Il2CppBase() + 0x4993D78))(this, result);
+	}
+
+};
+
+}

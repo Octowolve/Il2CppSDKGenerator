@@ -1,0 +1,44 @@
+#pragma once
+#include <Il2Cpp/Il2Cpp.h>
+namespace HoudiniEngineUnity {
+
+class HAPIImageDataFormat
+{
+public: 
+
+	static Il2CppClass *StaticClass() {
+		return (Il2CppClass *)(Il2Cpp::GetClass("Assembly-CSharp-firstpass.dll", "HoudiniEngineUnity", "HAPI_ImageDataFormat"));
+	}
+
+	template <typename T = int32_t> T& value__() {
+		return *(T*)((uintptr_t)this + 0x0);
+	}
+	template <typename T = uintptr_t> static T& HAPI_IMAGE_DATA_UNKNOWN() {
+		return *(T*)((uintptr_t)StaticClass()->static_fields + 0x0);
+	}
+	template <typename T = uintptr_t> static T& HAPI_IMAGE_DATA_INT8() {
+		return *(T*)((uintptr_t)StaticClass()->static_fields + 0x0);
+	}
+	template <typename T = uintptr_t> static T& HAPI_IMAGE_DATA_INT16() {
+		return *(T*)((uintptr_t)StaticClass()->static_fields + 0x0);
+	}
+	template <typename T = uintptr_t> static T& HAPI_IMAGE_DATA_INT32() {
+		return *(T*)((uintptr_t)StaticClass()->static_fields + 0x0);
+	}
+	template <typename T = uintptr_t> static T& HAPI_IMAGE_DATA_FLOAT16() {
+		return *(T*)((uintptr_t)StaticClass()->static_fields + 0x0);
+	}
+	template <typename T = uintptr_t> static T& HAPI_IMAGE_DATA_FLOAT32() {
+		return *(T*)((uintptr_t)StaticClass()->static_fields + 0x0);
+	}
+	template <typename T = uintptr_t> static T& HAPI_IMAGE_DATA_MAX() {
+		return *(T*)((uintptr_t)StaticClass()->static_fields + 0x0);
+	}
+	template <typename T = uintptr_t> static T& HAPI_IMAGE_DATA_DEFAULT() {
+		return *(T*)((uintptr_t)StaticClass()->static_fields + 0x0);
+	}
+
+
+};
+
+}

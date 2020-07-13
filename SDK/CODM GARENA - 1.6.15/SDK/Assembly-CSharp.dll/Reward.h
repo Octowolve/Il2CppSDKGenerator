@@ -1,0 +1,6 @@
+#include "Includes/Reward/RewardCardDataBase.h"
+#include "Includes/Reward/ItemRewardCardData.h"
+#include "Includes/Reward/WeaponRewardCardData.h"
+#include "Includes/Reward/RoleRewardCardData.h"
+#include "Includes/Reward/PerkRewardCardData.h"
+#include "Includes/Reward/LethalAndTacticalRewardCardData.h"

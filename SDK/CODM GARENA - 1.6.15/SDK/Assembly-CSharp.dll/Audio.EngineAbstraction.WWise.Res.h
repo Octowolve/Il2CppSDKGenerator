@@ -1,0 +1,6 @@
+#include "Includes/Audio.EngineAbstraction.WWise.Res/AkBankHandleWrapper.h"
+#include "Includes/Audio.EngineAbstraction.WWise.Res/AkBankManagerWrapper.h"
+#include "Includes/Audio.EngineAbstraction.WWise.Res/AkBankManager_Async.h"
+#include "Includes/Audio.EngineAbstraction.WWise.Res/AkBankManager_Sync.h"
+#include "Includes/Audio.EngineAbstraction.WWise.Res/BankLoadInfo.h"
+#include "Includes/Audio.EngineAbstraction.WWise.Res/InGameBankManager.h"

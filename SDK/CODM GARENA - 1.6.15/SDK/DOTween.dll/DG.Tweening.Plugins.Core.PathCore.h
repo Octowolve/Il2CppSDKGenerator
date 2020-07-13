@@ -1,0 +1,5 @@
+#include "Includes/DG.Tweening.Plugins.Core.PathCore/ControlPoint.h"
+#include "Includes/DG.Tweening.Plugins.Core.PathCore/ABSPathDecoder.h"
+#include "Includes/DG.Tweening.Plugins.Core.PathCore/CatmullRomDecoder.h"
+#include "Includes/DG.Tweening.Plugins.Core.PathCore/LinearDecoder.h"
+#include "Includes/DG.Tweening.Plugins.Core.PathCore/Path.h"

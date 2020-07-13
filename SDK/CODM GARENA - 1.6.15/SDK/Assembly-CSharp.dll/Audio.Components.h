@@ -1,0 +1,6 @@
+#include "Includes/Audio.Components/MultiTriggerFilter.h"
+#include "Includes/Audio.Components/NormalizedAkGameObj.h"
+#include "Includes/Audio.Components/VolumeClientDetector.h"
+#include "Includes/Audio.Components/VolumeClientDetectorContainer.h"
+#include "Includes/Audio.Components/IVolumeClientDetectorOperation.h"
+#include "Includes/Audio.Components/VolumeClientDetectorTester.h"

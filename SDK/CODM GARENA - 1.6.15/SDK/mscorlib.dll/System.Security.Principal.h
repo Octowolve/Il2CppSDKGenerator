@@ -1,0 +1,7 @@
+#include "Includes/System.Security.Principal/GenericIdentity.h"
+#include "Includes/System.Security.Principal/GenericPrincipal.h"
+#include "Includes/System.Security.Principal/IIdentity.h"
+#include "Includes/System.Security.Principal/IPrincipal.h"
+#include "Includes/System.Security.Principal/PrincipalPolicy.h"
+#include "Includes/System.Security.Principal/WindowsAccountType.h"
+#include "Includes/System.Security.Principal/WindowsIdentity.h"

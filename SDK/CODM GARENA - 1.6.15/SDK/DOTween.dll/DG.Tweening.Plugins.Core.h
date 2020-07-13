@@ -1,0 +1,6 @@
+#include "Includes/DG.Tweening.Plugins.Core/ITPlugin`4.h"
+#include "Includes/DG.Tweening.Plugins.Core/SpecialPluginsUtils.h"
+#include "Includes/DG.Tweening.Plugins.Core/IPlugSetter`4.h"
+#include "Includes/DG.Tweening.Plugins.Core/ITweenPlugin.h"
+#include "Includes/DG.Tweening.Plugins.Core/ABSTweenPlugin`3.h"
+#include "Includes/DG.Tweening.Plugins.Core/PluginsManager.h"

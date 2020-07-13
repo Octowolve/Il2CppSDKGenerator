@@ -1,0 +1,8 @@
+#include "Includes/WellFired.Shared/IOHelper.h"
+#include "Includes/WellFired.Shared/IOpen.h"
+#include "Includes/WellFired.Shared/LinuxOpen.h"
+#include "Includes/WellFired.Shared/OSXOpen.h"
+#include "Includes/WellFired.Shared/OpenFactory.h"
+#include "Includes/WellFired.Shared/WinOpen.h"
+#include "Includes/WellFired.Shared/ReflectionHelper.h"
+#include "Includes/WellFired.Shared/UnityEditorHelper.h"

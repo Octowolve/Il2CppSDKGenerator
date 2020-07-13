@@ -1,0 +1,7 @@
+#include "Includes/UnityEngine.Collections/ReadOnlyAttribute.h"
+#include "Includes/UnityEngine.Collections/ReadWriteAttribute.h"
+#include "Includes/UnityEngine.Collections/WriteOnlyAttribute.h"
+#include "Includes/UnityEngine.Collections/DeallocateOnJobCompletionAttribute.h"
+#include "Includes/UnityEngine.Collections/NativeContainerAttribute.h"
+#include "Includes/UnityEngine.Collections/NativeContainerSupportsAtomicWriteAttribute.h"
+#include "Includes/UnityEngine.Collections/NativeContainerSupportsMinMaxWriteRestrictionAttribute.h"

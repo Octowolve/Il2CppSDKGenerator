@@ -1,0 +1,7 @@
+#include "Includes/Audio.EngineAbstraction.SpatialAudio.Data/AudioWayPoint.h"
+#include "Includes/Audio.EngineAbstraction.SpatialAudio.Data/AudioWayPointLine.h"
+#include "Includes/Audio.EngineAbstraction.SpatialAudio.Data/AudioWayPointRoom.h"
+#include "Includes/Audio.EngineAbstraction.SpatialAudio.Data/AudioWayPointEditorComponent.h"
+#include "Includes/Audio.EngineAbstraction.SpatialAudio.Data/AudioWayPointManager.h"
+#include "Includes/Audio.EngineAbstraction.SpatialAudio.Data/SpatialAudioData.h"
+#include "Includes/Audio.EngineAbstraction.SpatialAudio.Data/SpatialAudioDataRoot.h"

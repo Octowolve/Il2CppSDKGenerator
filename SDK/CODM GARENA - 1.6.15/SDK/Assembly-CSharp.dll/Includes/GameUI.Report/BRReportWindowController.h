@@ -1,0 +1,107 @@
+#pragma once
+#include <Il2Cpp/Il2Cpp.h>
+namespace GameUI.Report {
+
+class BRReportWindowController
+{
+public: 
+
+	static Il2CppClass *StaticClass() {
+		return (Il2CppClass *)(Il2Cpp::GetClass("Assembly-CSharp.dll", "GameUI.Report", "BRReportWindowController"));
+	}
+
+	template <typename T = uintptr_t> T& m_View() {
+		return *(T*)((uintptr_t)this + 0x54);
+	}
+	template <typename T = Il2CppList<uintptr_t>*> T& DropedPlayers() {
+		return *(T*)((uintptr_t)this + 0x58);
+	}
+	template <typename T = uintptr_t> static T& _c__Hotfix0_ctor() {
+		return *(T*)((uintptr_t)StaticClass()->static_fields + 0x0);
+	}
+	template <typename T = uintptr_t> static T& __Hotfix0_Init() {
+		return *(T*)((uintptr_t)StaticClass()->static_fields + 0x4);
+	}
+	template <typename T = uintptr_t> static T& __Hotfix0_GetViewAssetId() {
+		return *(T*)((uintptr_t)StaticClass()->static_fields + 0x8);
+	}
+	template <typename T = uintptr_t> static T& __Hotfix0_RegisterDelegates() {
+		return *(T*)((uintptr_t)StaticClass()->static_fields + 0xC);
+	}
+	template <typename T = uintptr_t> static T& __Hotfix0_UnRegisterDelegates() {
+		return *(T*)((uintptr_t)StaticClass()->static_fields + 0x10);
+	}
+	template <typename T = uintptr_t> static T& __Hotfix0_InitView() {
+		return *(T*)((uintptr_t)StaticClass()->static_fields + 0x14);
+	}
+	template <typename T = uintptr_t> static T& __Hotfix0_InitDropedPlayers() {
+		return *(T*)((uintptr_t)StaticClass()->static_fields + 0x18);
+	}
+	template <typename T = uintptr_t> static T& __Hotfix0_OnConfirmBtnClicked() {
+		return *(T*)((uintptr_t)StaticClass()->static_fields + 0x1C);
+	}
+	template <typename T = uintptr_t> static T& __Hotfix0_RequestReportPlayer() {
+		return *(T*)((uintptr_t)StaticClass()->static_fields + 0x20);
+	}
+	template <typename T = uintptr_t> static T& __Hotfix0_GetReportType() {
+		return *(T*)((uintptr_t)StaticClass()->static_fields + 0x24);
+	}
+	template <typename T = uintptr_t> static T& __Hotfix0_OnResponseReportPlayer() {
+		return *(T*)((uintptr_t)StaticClass()->static_fields + 0x28);
+	}
+
+	template <typename T = uintptr_t> T get_sds() {
+		return ((T (*)(BRReportWindowController*))(Il2CppBase() + 0x3ABC508))(this);
+	}
+	template <typename T = void> T Init() {
+		return ((T (*)(BRReportWindowController*))(Il2CppBase() + 0x3ABC5A4))(this);
+	}
+	template <typename T = uintptr_t> T GetViewAssetId() {
+		return ((T (*)(BRReportWindowController*))(Il2CppBase() + 0x3ABC8F8))(this);
+	}
+	template <typename T = void> T RegisterDelegates() {
+		return ((T (*)(BRReportWindowController*))(Il2CppBase() + 0x3ABC99C))(this);
+	}
+	template <typename T = void> T UnRegisterDelegates() {
+		return ((T (*)(BRReportWindowController*))(Il2CppBase() + 0x3ABCD04))(this);
+	}
+	template <typename T = void> T InitView(Il2CppList<uintptr_t>* Hitters, Il2CppList<uintptr_t>* Teammates, bool IsBR, bool IsMP, bool IsFFA) {
+		return ((T (*)(BRReportWindowController*, Il2CppList<uintptr_t>*, Il2CppList<uintptr_t>*, bool, bool, bool))(Il2CppBase() + 0x3ABCF58))(this, Hitters, Teammates, IsBR, IsMP, IsFFA);
+	}
+	template <typename T = void> T InitDropedPlayers(Il2CppList<uintptr_t>* Hitters, Il2CppList<uintptr_t>* Teammates, bool IsBR, bool IsMP, bool IsFFA) {
+		return ((T (*)(BRReportWindowController*, Il2CppList<uintptr_t>*, Il2CppList<uintptr_t>*, bool, bool, bool))(Il2CppBase() + 0x3ABD234))(this, Hitters, Teammates, IsBR, IsMP, IsFFA);
+	}
+	template <typename T = void> T OnConfirmBtnClicked() {
+		return ((T (*)(BRReportWindowController*))(Il2CppBase() + 0x3ABDCB4))(this);
+	}
+	template <typename T = void> T RequestReportPlayer(uintptr_t data) {
+		return ((T (*)(BRReportWindowController*, uintptr_t))(Il2CppBase() + 0x3ABE258))(this, data);
+	}
+	template <typename T = Il2CppList<uint32_t>*> T GetReportType() {
+		return ((T (*)(BRReportWindowController*))(Il2CppBase() + 0x3ABE6E0))(this);
+	}
+	template <typename T = void> T OnResponseReportPlayer(uintptr_t Msg) {
+		return ((T (*)(BRReportWindowController*, uintptr_t))(Il2CppBase() + 0x3ABE8C4))(this, Msg);
+	}
+	template <typename T = void> T xLuaBaseProxy_Init() {
+		return ((T (*)(BRReportWindowController*))(Il2CppBase() + 0x3ABE980))(this);
+	}
+	template <typename T = uintptr_t> T xLuaBaseProxy_GetViewAssetId() {
+		return ((T (*)(BRReportWindowController*))(Il2CppBase() + 0x3ABE984))(this);
+	}
+	template <typename T = void> T xLuaBaseProxy_RegisterDelegates() {
+		return ((T (*)(BRReportWindowController*))(Il2CppBase() + 0x3ABE98C))(this);
+	}
+	template <typename T = void> T xLuaBaseProxy_UnRegisterDelegates() {
+		return ((T (*)(BRReportWindowController*))(Il2CppBase() + 0x3ABE990))(this);
+	}
+	template <typename T = void> T xLuaBaseProxy_OnConfirmBtnClicked() {
+		return ((T (*)(BRReportWindowController*))(Il2CppBase() + 0x3ABE994))(this);
+	}
+	template <typename T = void> T xLuaBaseProxy_RequestReportPlayer(uintptr_t P0) {
+		return ((T (*)(BRReportWindowController*, uintptr_t))(Il2CppBase() + 0x3ABE998))(this, P0);
+	}
+
+};
+
+}
