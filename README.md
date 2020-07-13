@@ -33,7 +33,7 @@ using namespace GameEngine;
 
 void PrintLocation()
 {
-  BaseGame *baseGame = (BaseGame *)GamePlay::get_Game();
+  BaseGame *baseGame = GamePlay::get_Game<BaseGame *>();
   if (baseGame) {
     localPawn = GamePlay::get_LocalPawn<Pawn *>();
     if(localPawn){
