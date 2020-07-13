@@ -33,11 +33,11 @@ using namespace GameEngine;
 
 void PrintLocation()
 {
-  BaseGame *baseGame = GamePlay::get_Game<BaseGame *>();
+  auto baseGame = GamePlay::get_Game<BaseGame *>();
   if (baseGame) {
-    localPawn = GamePlay::get_LocalPawn<Pawn *>();
+    auto localPawn = GamePlay::get_LocalPawn<Pawn *>();
     if(localPawn){
-      Transform *pawnTransform = ((Component *)localPawn)->get_transform<Transform *>();
+      auto pawnTransform = ((Component *)localPawn)->get_transform<Transform *>();
       LOG("Local Pawn: %f %f %f", pawnTransform->get_position().x, pawnTransform->get_position().y, pawnTransform->get_position().z);
     }
   }
