@@ -14,7 +14,7 @@ Done!
 # How to use the SDK
 You can include an namespace header to compile whole classes within a namespace or just compile a single class, for example take a look at SDK result.
 
-**Example: **
+**Example:**
 ```c++
 #include "SDK/Assembly-CSharp.dll/GameBase.h"
 #include "SDK/Assembly-CSharp.dll/GameEngine.h"
