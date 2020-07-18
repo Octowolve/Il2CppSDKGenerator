@@ -43,6 +43,27 @@ void PrintLocation()
   }
 }
 ```
+# Calling Il2Cpp namespace functions
+Before you use any `Il2Cpp` functions, you need to call `Attach` first.
 
+```c++
+...
+void WaitForAttach()
+{
+  waitUntilLoaded(); // TODO: create function that loops when libil2cpp.so is not loaded yet.
+  if(Il2Cpp::Attach() != 0)
+  {
+      // Something goes wrong here...
+      exit(0);
+  }
+  // Attached!
+  // You can call any Il2Cpp functions now.
+}
+```
+# Changelogs
+7 July 2020:
+```
+- Added CreateString functions to headers.
+```
 # Credits
 dnlib: [dnlib](https://github.com/0xd4d/dnlib)
