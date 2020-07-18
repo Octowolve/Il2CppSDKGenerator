@@ -16,8 +16,8 @@
 
 using namespace std;
 
-#ifndef ML_IL2CPP_H
-#define ML_IL2CPP_H
+#ifndef IL2CPP_H
+#define IL2CPP_H
 
 #include "Il2CppType.h"
 
@@ -41,6 +41,10 @@ namespace Il2Cpp {
     void SetStaticFieldValue(const char *image, const char *namespaze, const char *clazz, const char *name, void *value);
 
     void *NewClassObject(const char *image, const char *namespaze, const char *clazz);
+
+    Il2CppString *CreateString(const char *s);
+
+    Il2CppString *CreateString(const wchar_t *s, size_t len);    
 
     bool IsAssembliesLoaded();
 };

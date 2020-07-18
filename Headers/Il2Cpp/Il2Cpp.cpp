@@ -50,6 +50,10 @@ namespace {
     void *(*il2cpp_class_get_nested_types)(void *, void **);
 
     void *(*il2cpp_object_new)(void *);
+
+    Il2CppString *(*il2cpp_string_new)(const char *);
+
+    Il2CppString *(*il2cpp_string_new_utf16)(const wchar_t *, size_t len);
 }
 // ========================================================================================================================================== //
 vector<string> split_string(string str, string token) {
@@ -206,6 +210,10 @@ int Il2Cpp::Attach(const char *libname) {
     il2cpp_class_get_nested_types = (void *(*)(void *, void **)) get_export_function(libname, "il2cpp_class_get_nested_types");
 
     il2cpp_object_new = (void *(*)(void *)) get_export_function(libname, "il2cpp_object_new");
+
+    il2cpp_string_new = (Il2CppString *(*)(const char *)) get_export_function(libname, "il2cpp_string_new");
+
+    il2cpp_string_new_utf16 = (Il2CppString *(*)(const wchar_t *, size_t)) get_export_function(libname, "il2cpp_string_new_utf16");
 
     if(not_found_export)
     {
@@ -500,3 +508,12 @@ void* Il2Cpp::CreateArray(const char *image, const char *namespaze, const char *
     return il2cpp_array_new(klass, length);
 }
 // ========================================================================================================================================== //
+Il2CppString *Il2Cpp::CreateString(const char *s)
+{
+    return il2cpp_string_new(s);
+}
+
+Il2CppString *Il2Cpp::CreateString(const wchar_t *s, size_t len)
+{
+    return il2cpp_string_new_utf16(s, len);
+}
