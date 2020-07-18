@@ -1,5 +1,0 @@
-#include "Includes/XLua.TemplateEngine/TokenType.h"
-#include "Includes/XLua.TemplateEngine/Chunk.h"
-#include "Includes/XLua.TemplateEngine/TemplateFormatException.h"
-#include "Includes/XLua.TemplateEngine/Parser.h"
-#include "Includes/XLua.TemplateEngine/LuaTemplate.h"

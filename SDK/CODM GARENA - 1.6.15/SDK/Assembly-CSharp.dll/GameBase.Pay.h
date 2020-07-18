@@ -1,6 +1,0 @@
-#include "Includes/GameBase.Pay/PayHelper.h"
-#include "Includes/GameBase.Pay/MidasProductInfo.h"
-#include "Includes/GameBase.Pay/MPInfo.h"
-#include "Includes/GameBase.Pay/MPSendEx.h"
-#include "Includes/GameBase.Pay/EPayProductType.h"
-#include "Includes/GameBase.Pay/PayConfig.h"

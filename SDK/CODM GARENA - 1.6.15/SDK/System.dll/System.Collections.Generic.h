@@ -1,6 +1,0 @@
-#include "Includes/System.Collections.Generic/LinkedList`1.h"
-#include "Includes/System.Collections.Generic/LinkedListNode`1.h"
-#include "Includes/System.Collections.Generic/Queue`1.h"
-#include "Includes/System.Collections.Generic/RBTree.h"
-#include "Includes/System.Collections.Generic/SortedDictionary`2.h"
-#include "Includes/System.Collections.Generic/Stack`1.h"

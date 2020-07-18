@@ -1,7 +1,0 @@
-#include "Includes/GameEngine.TextureAtlas/AtlasUVTrans.h"
-#include "Includes/GameEngine.TextureAtlas/MaterialGroup.h"
-#include "Includes/GameEngine.TextureAtlas/MegaMaterialGroup.h"
-#include "Includes/GameEngine.TextureAtlas/TextureConfig.h"
-#include "Includes/GameEngine.TextureAtlas/Options.h"
-#include "Includes/GameEngine.TextureAtlas/TextureAtlasing.h"
-#include "Includes/GameEngine.TextureAtlas/TextureAtlasingUpdater.h"

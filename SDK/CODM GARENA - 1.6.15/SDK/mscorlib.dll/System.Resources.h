@@ -1,8 +1,0 @@
-#include "Includes/System.Resources/IResourceReader.h"
-#include "Includes/System.Resources/NeutralResourcesLanguageAttribute.h"
-#include "Includes/System.Resources/ResourceManager.h"
-#include "Includes/System.Resources/PredefinedResourceType.h"
-#include "Includes/System.Resources/ResourceReader.h"
-#include "Includes/System.Resources/ResourceSet.h"
-#include "Includes/System.Resources/RuntimeResourceSet.h"
-#include "Includes/System.Resources/SatelliteContractVersionAttribute.h"

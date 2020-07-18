@@ -1,6 +1,0 @@
-#include "Includes/IniParser.Model/IniData.h"
-#include "Includes/IniParser.Model/KeyData.h"
-#include "Includes/IniParser.Model/KeyDataCollection.h"
-#include "Includes/IniParser.Model/SectionData.h"
-#include "Includes/IniParser.Model/SectionDataCollection.h"
-#include "Includes/IniParser.Model/IniDataCaseInsensitive.h"

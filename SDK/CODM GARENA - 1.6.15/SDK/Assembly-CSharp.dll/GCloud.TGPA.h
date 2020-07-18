@@ -1,8 +1,0 @@
-#include "Includes/GCloud.TGPA/ITGPACallback.h"
-#include "Includes/GCloud.TGPA/GameDataKey.h"
-#include "Includes/GCloud.TGPA/ITGPAService.h"
-#include "Includes/GCloud.TGPA/TGPAGameComponent.h"
-#include "Includes/GCloud.TGPA/TGPAHelper.h"
-#include "Includes/GCloud.TGPA/TGPAServiceAndroid.h"
-#include "Includes/GCloud.TGPA/TGPAServiceBase.h"
-#include "Includes/GCloud.TGPA/TGPAServiceiOS.h"

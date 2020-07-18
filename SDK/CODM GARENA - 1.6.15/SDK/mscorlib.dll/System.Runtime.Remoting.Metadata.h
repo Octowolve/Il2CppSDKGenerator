@@ -1,5 +1,0 @@
-#include "Includes/System.Runtime.Remoting.Metadata/SoapAttribute.h"
-#include "Includes/System.Runtime.Remoting.Metadata/SoapFieldAttribute.h"
-#include "Includes/System.Runtime.Remoting.Metadata/SoapMethodAttribute.h"
-#include "Includes/System.Runtime.Remoting.Metadata/SoapParameterAttribute.h"
-#include "Includes/System.Runtime.Remoting.Metadata/SoapTypeAttribute.h"

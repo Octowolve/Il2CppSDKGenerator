@@ -1,6 +1,0 @@
-#include "Includes/VersionControl/DirectoryHandler.h"
-#include "Includes/VersionControl/DownloadState.h"
-#include "Includes/VersionControl/Downloader.h"
-#include "Includes/VersionControl/MD5Handler.h"
-#include "Includes/VersionControl/PathCombine.h"
-#include "Includes/VersionControl/VersionCode.h"
