@@ -14,8 +14,8 @@ Done!
 # How to use the SDK
 You can include an namespace header to compile whole classes within a namespace or just compile a single class, for example take a look at SDK result.
 
-**Example:**
 Please read how to Initialize Il2Cpp Functions first before using any of the SDK/Il2Cpp Functions.
+**Example:**
 ```c++
 #include "SDK/Assembly-CSharp.dll/GameBase.h"
 #include "SDK/Assembly-CSharp.dll/GameEngine.h"
