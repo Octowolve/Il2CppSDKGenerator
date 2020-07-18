@@ -63,7 +63,7 @@ void WaitForAttach()
 # Changelogs
 7 July 2020:
 ```
-- Added CreateString functions to headers.
+- Added CreateString functions to Il2Cpp Header
 ```
 # Credits
 dnlib: [dnlib](https://github.com/0xd4d/dnlib)
