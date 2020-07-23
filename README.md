@@ -41,6 +41,7 @@ void PrintLocation()
     if(localPawn){
       auto pawnTransform = ((Component *)localPawn)->get_transform<Transform *>();
       LOG("Local Pawn: %f %f %f", pawnTransform->get_position().x, pawnTransform->get_position().y, pawnTransform->get_position().z);
+      localPawn->m_Health() = 9999.9f;
     }
   }
 }
